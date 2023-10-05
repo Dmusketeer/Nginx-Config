@@ -20,7 +20,7 @@ Nginx configuration is based on directives, which are commands that are used to 
 Here are some examples of directives that you can use in your Nginx configuration:
 
 - `server`: Defines a server block, which contains directives for a specific server.
-```bash
+```nginx
 server {
   listen 80;
   server_name example.com;
@@ -33,7 +33,7 @@ server {
 }
 ```
 - `location`: Defines a location block, which contains directives for a specific URL path.
-```bash
+```nginx
 location /api {
   proxy_pass http://backend.example.com;
   proxy_set_header Host $host;
@@ -55,7 +55,7 @@ Nginx uses directives to configure various aspects of its behavior. Some common 
 Here are some examples of directives that you can use in your Nginx configuration:
 
 - `server`: Defines a server block, which contains directives for a specific server.
-```bash
+```nginx
 server {
   listen 80;
   server_name example.com;
@@ -68,7 +68,7 @@ server {
 }
 ```
 - `location`: Defines a location block, which contains directives for a specific URL path.
-```bash
+```nginx
 location /api {
   proxy_pass http://backend.example.com;
   proxy_set_header Host $host;
